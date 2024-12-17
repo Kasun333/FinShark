@@ -11,11 +11,11 @@ namespace api.Models
         public int Id { get; set; }
         public string Symbol { get; set; }=string.Empty;
         public string CompanyName { get; set; }=string.Empty;
-        [Column(TypeName =  "decimail(18,2)")]
+        [Column(TypeName =  "decimal(18,2)")]
 
         public decimal Purchase { get; set; }
 
-         [Column(TypeName =  "decimail(18,2)")]
+         [Column(TypeName =  "decimal(18,2)")]
 
         public decimal Lastdiv { get; set; }
         public string Industry { get; set; }=string.Empty;
